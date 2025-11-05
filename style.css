@@ -1,0 +1,179 @@
+body {
+font-family:  Verdana, sans-serif; 
+color: #333;
+margin: 0;
+padding: 20;
+line-height: 1.6;
+background-color: white;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    font-size: 30px;
+
+
+}
+
+.container {
+    max-width: 1000px; 
+    margin: 40px auto;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.header-left {
+    flex: 0 0 30%;
+    padding-right: 20px;
+    font-weight: 100;
+}
+
+.header-right {
+    flex: 0 0 60%;
+    color: #666;
+    font-size: 20px;
+    margin-right: 20px;
+    max-width: 400px;
+}
+
+.greeting {
+    font-size: 35px;
+    margin-bottom: 5px;
+    color: rgb(173, 169, 169);
+}
+ 
+.we-are {
+    color: #666;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 100px;
+    margin-top: 0;
+}
+ 
+h1 strong {
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #666;
+    font-size: 20px;
+}
+
+.work {
+    color: #666;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.work-section h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.work-gallery {
+    display: flex;
+    gap: 20px; 
+    margin-bottom: 30px;
+}
+ 
+.mention {
+    font-size: 25px;
+    color: #666;
+}
+
+.work-item {
+    flex: 1;
+}
+
+.work-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    .main-header, .work-gallery, .contact-footer {
+        flex-direction: column;
+    }
+}
+
+
+.header-left, .header-right {
+    flex: auto;
+    margin-bottom: 20px;
+    padding-right: 0;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.contact-footer {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.contact-footer > div {
+    flex: 1;
+    padding: 20px;
+    color: white; 
+    box-sizing: border-box; 
+    align-items: center;
+}
+
+.contact-info-column i {
+    font-size: 1.2em;
+    margin-right: 15px;
+}
+
+.contact-info-column {
+    background-color: #333333;
+    justify-content: center;
+
+}
+
+
+    .contact-us-column {
+        background-color: #666666; 
+    }
+    
+    
+    .like-us-column {
+        background-color: #aaaaaa;
+        justify-content: center;
+    }
+    
+    .contact-footer h3 {
+        margin-top: 0;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .contact-footer p {
+        margin: 5px 0;
+        font-size: 0.9em;
+    }
+    
+
+
+
+
+
+
